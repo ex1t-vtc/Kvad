@@ -66,8 +66,8 @@ Crtaj_PID_gyro %plot(8,9,10)
 
 
 %% estimacija
-n_B=3
-n_A=3
+n_B=4
+n_A=4
 
 est_par=LS(n_B,n_A,u_R(pocetak:kraj,1),gyro(pocetak:kraj,1),time(pocetak:kraj))
 %LS(n_B,n_A,[1 2 3 4 5 6 7 8 9]',[2 3 4 1 5 6 2 5 4]',[1 2 3 4 5 6 7 8 9]')
